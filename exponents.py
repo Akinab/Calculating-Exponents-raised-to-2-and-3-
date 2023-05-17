@@ -10,4 +10,5 @@ with open('integers.txt', 'r') as source_file:
     # Create two new files for writing
     with open('double.txt', 'w') as double_file, open('triple.txt', 'w') as triple_file:
         # Iterate over each line in the source file
-        
+        for line in source_file:
+            
