@@ -17,3 +17,6 @@ with open('integers.txt', 'r') as source_file:
             if num % 2 == 0:
                 # Write the square of the number to the double file
                 double_file.write(str(num ** 2) + '\n')
+            else:
+                # Write the cube of the number to the triple file
+                triple_file.write(str(num ** 3) + '\n')
