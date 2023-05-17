@@ -15,3 +15,5 @@ with open('integers.txt', 'r') as source_file:
             num = int(line.strip())
             # Check if the number is even
             if num % 2 == 0:
+                # Write the square of the number to the double file
+                double_file.write(str(num ** 2) + '\n')
