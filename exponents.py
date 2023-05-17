@@ -4,3 +4,5 @@ def details ():
     print ("\nDescription: {}\nDate: {}".format (Description , Date))
     
 details ()
+
+# Open the source file for reading
