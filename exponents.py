@@ -13,3 +13,5 @@ with open('integers.txt', 'r') as source_file:
         for line in source_file:
             # Convert the line to an integer
             num = int(line.strip())
+            # Check if the number is even
+            if num % 2 == 0:
