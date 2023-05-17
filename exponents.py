@@ -8,3 +8,4 @@ details ()
 # Open the source file for reading
 with open('integers.txt', 'r') as source_file:
     # Create two new files for writing
+    with open('double.txt', 'w') as double_file, open('triple.txt', 'w') as triple_file:
