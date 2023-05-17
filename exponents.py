@@ -7,3 +7,4 @@ details ()
 
 # Open the source file for reading
 with open('integers.txt', 'r') as source_file:
+    # Create two new files for writing
