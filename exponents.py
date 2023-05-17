@@ -11,4 +11,5 @@ with open('integers.txt', 'r') as source_file:
     with open('double.txt', 'w') as double_file, open('triple.txt', 'w') as triple_file:
         # Iterate over each line in the source file
         for line in source_file:
-            
+            # Convert the line to an integer
+            num = int(line.strip())
